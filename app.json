@@ -11,8 +11,8 @@
 			"description": "Aria2c's secret",
 			"value": "DEFAULT_SECRET"
 		},
-		"RCLONE_CONFIG": {
-			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
+		"RCLONE_CONFIG_BASE64": {
+			"description": "Put the Base64 encoded rclone conf",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
