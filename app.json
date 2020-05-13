@@ -1,7 +1,7 @@
 {
 	"name": "Heroku aria2c",
 	"description": "Run aria2c on heroku",
-	"repository": "https://github.com/MrRobotGOD/heroku-aria2c",
+	"repository": "https://github.com/iam143/heroku-aria2c",
 	"keywords": ["aria2c"],
 	"env": {
 		"HEROKU_APP_NAME": {
@@ -11,8 +11,8 @@
 			"description": "Aria2c's secret",
 			"value": "DEFAULT_SECRET"
 		},
-		"RCLONE_CONFIG_BASE64": {
-			"description": "Put the Base64 encoded rclone conf",
+		"RCLONE_CONFIG": {
+			"description": "Rclone config to mount in one line, replace line breaks with \"\\n\"",
 			"required": false
 		},
 		"RCLONE_DESTINATION": {
